@@ -1,3 +1,6 @@
+// Конфигурационный файл для аутентификации
+// Содержит секретный ключ для подписи JWT токенов
 module.exports = {
-  secret: "bezkoder-secret-key"
+  secret: "bezkoder-secret-key" // Секретный ключ для подписи JWT
+  
 };
